@@ -16,20 +16,28 @@ A Python tool to fetch PubMed papers with authors from pharmaceutical/biotech co
 ```bash
 git clone https://github.com/yourusername/pubmed-fetcher.git
 cd pubmed-fetcher
+```
 
 2. **Install dependencies using Poetry**
 
 ```bash
 poetry install
+```
 
 3. **Set up environment**
 
 ```bash
 echo "PUBMED_EMAIL=your.email@example.com" > .env
+```
 
-##Usage
-#Basic Command
+## Usage
+
+## Basic Command
+
 ```bash
 poetry run get-papers-list "your search query" [options]
+```
+
 ```bash
 poetry run get-papers-list "cancer treatment" --file output.csv
+```
